@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  .divPInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pInfoLeft,
+  .pInfoRight {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+body {
+  margin: 0px;
+  background-image: url(./src/pexels-felix-mittermeier-956981.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  padding: 0px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.divHead {
+  backdrop-filter: blur(3px);
+  text-align: center;
+  background-color: #ffffffd2;
+}
+.divSearch {
+  backdrop-filter: blur(3px);
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(120, 119, 198, 0.689);
+}
+.inputSearch {
+  height: 50px;
+  color: #ffffff;
+  width: 75%;
+  font-size: 30px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+}
+.buttonSearch {
+  color: #ffffff;
+  font-size: 20px;
+  height: 100px;
+  width: 10%;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+.pInfoLeft {
+  backdrop-filter: blur(3px);
+  margin-left: 10px;
+  width: 70%;
+  float: left;
+  background-color: #2b2b2b95;
+  border-radius: 30px;
+  padding: 20px;
+}
+.pInfoRight {
+  backdrop-filter: blur(3px);
+  margin-right: 10px;
+  width: 20%;
+  float: right;
+  background-color: #3b3b3b60;
+  border-radius: 30px;
+  padding: 20px;
+}
+.divImg {
+  margin-left: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+}
+img {
+  border-radius: 10px;
+  padding: 3px;
+}
+.divPFooter {
+  margin-left: 10px;
+}
+footer {
+  backdrop-filter: blur(3px);
+  border-radius: 50px 50px 0px 0px;
+  background-color: #2d2d2dd2;
+  padding: 20px;
+}
